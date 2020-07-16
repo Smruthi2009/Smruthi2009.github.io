@@ -1,0 +1,18 @@
+/* The animation code */
+@keyframes example {
+  0%   {color: #03fcf4;}
+  20%  {color: #03fcf4;}
+  40%  {color: #03adfc;}
+  60%  {color: #f403fc;}
+  80%  {color: #a903fc;}
+  100% {color: #03fcdf;}
+}
+
+/* The element to apply the animation to */
+.title {
+  color:white;
+  padding-left:30px;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
